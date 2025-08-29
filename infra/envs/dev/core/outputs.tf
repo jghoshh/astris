@@ -1,0 +1,1 @@
+output "state_key" { value = "envs/dev/core/terraform.tfstate" }
