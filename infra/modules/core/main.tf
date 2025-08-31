@@ -33,6 +33,17 @@ resource "aws_dynamodb_table" "index" {
     type = "S"
   }
 
+  attribute {
+    name = "trainer_id"
+    type = "S"
+  }
+
+  global_secondary_index {
+    name            = "gsi_trainer_id"
+    hash_key        = "trainer_id"
+    projection_type = "ALL"
+  }
+
   tags = local.tags
 }
 

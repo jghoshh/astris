@@ -1,3 +1,4 @@
 **/.terraform/*
 *.tfbackend
 **/tfplan.bin
+**/terraform.tfvars
