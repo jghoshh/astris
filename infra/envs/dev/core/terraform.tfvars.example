@@ -1,0 +1,5 @@
+aws_region  = "us-east-1"
+aws_profile = "astris-dev"
+env         = "dev"
+owner       = "jay-ghosh"
+name_prefix = "astris-dev-123"
